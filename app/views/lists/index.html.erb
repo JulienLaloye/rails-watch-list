@@ -1,0 +1,6 @@
+<H1>Create a new list</H1>
+<%= form_with model: @list do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <%= f.submit %>
+<% end %>
